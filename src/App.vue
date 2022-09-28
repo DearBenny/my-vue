@@ -1,4 +1,43 @@
 <template>
+  <div>
+    <img src="./assets/logo.png" >
+    <School></School>
+  </div>
+  </template>
+  <script>
+    import School from './components/School.vue'
+    export default{
+      name:'App',
+      comments:{School}
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
@@ -25,4 +64,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style> -->
